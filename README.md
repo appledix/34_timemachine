@@ -10,7 +10,7 @@ This script will display a three minute timer in the upper left corner of the we
 
 Install extension for Chrome browser [Custom JavaScript for websites](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija).
 
-Open configuration of [cjs](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija) browser extension on the site you want to controll. Click on the link "your own external scripts", add path this path - [https://cdn.rawgit.com/appledix/34_timemachine/23053527/index.js](https://cdn.rawgit.com/appledix/34_timemachine/23053527/index.js). Don`t forget to press "enable cjs for this host" to enable custom JS.
+Open configuration of [cjs](https://chrome.google.com/webstore/detail/custom-javascript-for-web/poakhlngfciodnhlhhgnaaelnpjljija) browser extension on the site you want to controll. Click on the link "your own external scripts", add this path - [https://cdn.rawgit.com/appledix/34_timemachine/23053527/index.js](https://cdn.rawgit.com/appledix/34_timemachine/23053527/index.js). Don`t forget to press "enable cjs for this host" to enable custom JS.
 
 For faster development you can use JS code hosted on localhost. Simple web server can be used for that, run:
 
