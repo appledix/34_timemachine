@@ -1,4 +1,5 @@
 var TIMEOUT_IN_SECS = 3 * 60
+var ALERTS_INTERVAL_IN_SECS = 30
 
 var quotes = ["Choose a job you love, and you will never have to work a day in your life.",
               "Know your limits, but never stop trying to exceed them.",
@@ -64,5 +65,5 @@ setInterval(displayTimer, 1000)
 
 setTimeout(function() {
   showQuote()
-  setInterval(showQuote, 30000)
-}, 181000)
+  setInterval(showQuote, ALERTS_INTERVAL_IN_SECS * 1000)
+}, (TIMEOUT_IN_SECS + 1) * 1000)
