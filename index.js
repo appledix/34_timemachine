@@ -58,7 +58,7 @@ function displayTimer() {
 }
 
 function showQuote() {
-  alert(quotes[~~(Math.random()*quotes.length)])
+  alert(quotes[Math.round(Math.random()*quotes.length)])
 }
 
 setInterval(displayTimer, 1000)
